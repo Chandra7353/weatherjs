@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+        
+</head>
+<body>
+    <section class="weatherapp">
+        
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://oxenticstemplates.biz/templatemonster/weather/images/logo.png" alt="">
+            </div>
+            <div class="links">
+                <a href="">HOME</a>
+                <a href="">NEWS</a>
+                <a href="">MAP</a>
+                <a href="">CONTACT</a>
+                <a href="">LOGIN</a>
+            </div>
+            
+        </div>
+        <div class="home">
+            <div class="search">
+                <input type="text" id = "data" placeholder="Enter city name">
+                <button onclick= "find()">Search</button>
+        </div>
+        
+        <div class="temp">
+            <div class="tempinfo">
+                <h1 >Temperature</h1>
+                <h1 id="cityname">Cityname</h1>
+                <h1 id="countryname">Countryname</h1>
+                <!-- superscripts sup is used for power or degree -->
+                <h1 id="temperature" style="font-size: 50px; color: black; " >0<sup>o</sup> C</h1>
+            </div>
+
+            <div class="image">
+                <img src="" alt="">
+            </div>
+
+
+        </div>
+
+    </section>
+    <script src="../Weatherapp/weather.js"></script>
+</body>
+
+</html>
